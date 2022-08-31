@@ -1,3 +1,7 @@
+body{
+    width: 70%;
+    margin: auto;
+}
 .nav-li{
     list-style: none;
     padding-top: 25px;
@@ -8,10 +12,27 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    padding-bottom: 30px;
     font-weight: 900;
     background-color: black;
     color: white;
 }
 i{
-    color: #ED661F;
+    color: black;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+} 
+#intro-1 {
+    color: white;
+    background-image: url("../images/food-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:400px;
+    width: 600px;
+}
+#form {
+    padding-top: 20px;
 }
