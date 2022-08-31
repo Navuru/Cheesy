@@ -1,0 +1,14 @@
+li{
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
