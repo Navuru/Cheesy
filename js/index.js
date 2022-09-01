@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", (e) =>{
 
     loginBtn.addEventListener("click", (e) =>{
         alert("Login successful")
-        console.log("Clicked")
+        // console.log("Clicked")
     })
     
     signupBtn.addEventListener("click", (e) =>{
         alert("Signup successful")
-        console.log("Clicked")
+        // console.log("Clicked")
     })
     
 
