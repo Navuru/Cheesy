@@ -27,6 +27,8 @@ i{
 } 
 #intro-1 {
     color: white;
+    line-height: 40px;
+    font-size: larger;
     background-image: url("../images/food-1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -40,4 +42,14 @@ i{
     box-shadow:3px 3px 2px 5px rgb(197, 187, 187);
     height: 300px;
     width: 300px;
+}
+.favorites{
+    /* padding-top: 200px; */
+    font-size: x-large;
+    background-image: url("../images/food-4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1200px;
+    height: 1000px;
+    /* color: white; */
 }
