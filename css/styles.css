@@ -44,12 +44,13 @@ i{
     width: 300px;
 }
 .favorites{
-    /* padding-top: 200px; */
     font-size: x-large;
     background-image: url("../images/food-4.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 1200px;
-    height: 1000px;
+    background-size: 1300px;
+    border: solid red;
     /* color: white; */
+}
+.center{
+    text-align: center;
 }
