@@ -60,3 +60,7 @@ i{
 .center{
     text-align: center;
 }
+.reviews{
+    display: flex;
+    justify-content: space-around;
+}
