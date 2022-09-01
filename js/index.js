@@ -1,5 +1,19 @@
 document.addEventListener("DOMContentLoaded", (e) =>{
 
+    let loginBtn = document.querySelector(".login-button")
+    let signupBtn = document.querySelector(".sign-up-button")
+
+    loginBtn.addEventListener("click", (e) =>{
+        alert("Login successful")
+        console.log("Clicked")
+    })
+    
+    signupBtn.addEventListener("click", (e) =>{
+        alert("Signup successful")
+        console.log("Clicked")
+    })
+    
+
 })
 
 
@@ -16,13 +30,4 @@ function addEmail(emails) {
     console.log(email)
 }
 // addEmail()
-let loginBtn = document.querySelector(".login-button")
-let signupBtn = document.querySelector(".sign-up-button")
 
-loginBtn.addEventListener("click", (e) =>{
-    console.log("Clicked")
-})
-
-signupBtn.addEventListener("click", (e) =>{
-    console.log("Clicked")
-})
