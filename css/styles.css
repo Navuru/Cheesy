@@ -15,12 +15,13 @@ a{
 }
 
 nav {
+    background-color : #FFA101;
     display: flex;
     justify-content: space-around;
     padding: 10px;
     /* padding-bottom: 30px; */
     font-weight: 900;
-    background-color: black;
+    /* background-color: black; */
     color: white;
 }
 i{
@@ -48,22 +49,33 @@ i{
     box-shadow:3px 3px 2px 5px rgb(197, 187, 187);
     height: 300px;
     width: 300px;
+    background-color: #B3DEE5;
 }
 .favorites{
-    font-size: x-large;
-    background-image: url("../images/food-4.jpg");
+    display: flex;
+    justify-content: space-around;
+    
+}
+#first,#second,#third{
+    /* background-image: url("../images/food-4.jpg");
     background-repeat: no-repeat;
-    background-size: 1300px;
-    border: solid red;
-    /* color: white; */
+    background-size: 1300px; */
 }
 .center{
     text-align: center;
 }
-.reviews{
+/* .reviews{
     display: flex;
     justify-content: space-around;
-}
+} */
 .like-button {
     color: rgb(245, 42, 15);
   }
+footer{
+    background-color: #31525B;
+}
+body{
+    background-color:#B3DEE5;
+    background-color: #FAE6B1;
+    background-color: #8FCFC1;
+}
