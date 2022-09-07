@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0003d8ec54.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="js/index.js"></script>
     <title>Cheesy</title>
@@ -16,9 +19,11 @@
         <li class ="nav-li"><a href="#sign-up-form">Sign Up</a></li>
         <li class ="nav-li"><a href="#contact-us">Contact Us</a></li>
     </nav>
+
     <section class=" intro">
         <div id = "intro-1">
-            <h1><i class="fa-solid fa-quote-left"></i>  Now that your tastes  <br> have grown up, cook like <br> you mean it  <i class="fa-solid fa-quote-right"></i></h1>
+            <h1>
+                <i class="fa-solid fa-quote-left"></i>  Now that your tastes  <br> have grown up, cook like <br> you mean it  <i class="fa-solid fa-quote-right"></i></h1>
         </div>
 
         <div id="shadow">
@@ -63,7 +68,7 @@
         <div id ="first">
             <h1>Cilantro-Lime Chicken</h1>
             <h3>Ingredients</h3>
-            <ol>
+            <ul>
                <li>4 tbsp. extra-virgin olive oil, divided</li> 
                <li>Juice of 2 limes</li> 
                <li>1/4 c.Add freshly chopped cilantro</li>
@@ -73,66 +78,85 @@
                <li> 4 bone-in, skin-on chicken thighs</li>
                <li>Kosher salt</li> 
                <li>Freshly ground black pepper</li>
-            </ol>
+            </ul>
             <h3>Instructions</h3>
-            <ol>
+            <ul>
                 <li>Whisk together 2 tablespoons oil, lime juice, cilantro, garlic, cumin, and red pepper <br> flakes. Add chicken and toss to coat. Let marinate in fridge 30 minutes and up to 2 hours. </li>
                 <li>When ready to cook, preheat oven to 425°. In a large ovenproof skillet over <br> medium-high heat, heat remaining 2 tablespoons oil. Season chicken with salt <br> and pepper, then add to skillet skin-side down and pour in remaining marinade. <br> Sear until skin is golden and crispy, about 6 minutes. Flip and cook 2 minutes more</li>
                 <li>Transfer skillet to oven and bake until chicken is cooked through, 10 to 12 minutes. 
                 </li>
                 <li>Serve over rice drizzled with pan drippings. </li>
-            </ol>
-                <span id="like-count1" class="likes">0 likes</span>
-                <button id="firstBtn" class="like-button">♥</button>
+            </ul>
+                <div>
+                    <p> <span id="like-count1" class="likes"> 0 </span> likes</p>
+                    <button id="firstBtn" class="like-button">♥</button>
+                </div>
         </div>
     </section>
+    <br><br><br>
 
         <section class = "recipes">
 
-        <div id = second>
+        <div id = "second" class = "container">
 
-                <div>
-                    <span id="like-count2" class="likes">0 likes</span>
-                    <button id="secondBtn" class="like-button">♥</button>
-                </div>
-        </div>
+            <div id="second-recipe">
 
-        <div id = "third">
+            </div>
+
+            <p><span id="like-count2" class="likes"> 0 </span> likes</p>
+            <button id="secondBtn" class="like-button">♥</button>
             
-                <span id="like-count3" class="likes">0 likes</span>
-                <button id="thirdBtn" class="like-button">♥</button>
         </div>
+        
+        <br>
+
+        <div id = "third" class = "container">
+
+            <div id = "third-recipe">
+
+            </div>
+                <p><span id="like-count3" class="likes"> 0 </span> likes</p>
+                <button id="thirdBtn" class="like-button">♥</button>
+            
+
+        </div>
+        <!-- <br> -->
+        
+
+        <div id ="fourth" class = "container">
+
+            <div id = "fourth-recipe">
+
+            </div>
+                <p><span id="like-count4" class="likes"> 0 </span>likes</p>
+                <button id="fourthBtn" class="like-button">♥</button>
+            
+            
+        </div>
+        <br>
+       
+
 
     </section>
 
-    <!-- <section class="comments">
-        <h1>Have you tried it? Tell us your thoughts</h1>
-
-        <div class="reviews">
-
-            <div id="first">
-                <p>I like people who love to eat. <br> They're the best kind of people <br> in the world.</p>
-                
-            </div>
-    
-            <div id="second">
-                <p>Really good! Here's something else <br> you could say instead of delicious. </p>
-                
-            </div>
-
-            <div id="third">
-                <p>Mouth-watering</p>
-                
-            </div>
-        </div>
-    </section> -->
-
+    <br><br>
     <footer>
         <div id= "contact-us" class="center">
+
         <h2>We'd Like to keep in touch</h2>
         <p>Subscribe to our newsletter</p>
-        <input type="" placeholder="Enter your email address">
-       <button class = "subscribe-button" type="submit">Subscribe</button>
+        
+        <form id = "subscribe-form">
+            <input 
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+            />
+            <button class = "subscribe-button" type="submit">Subscribe</button>
+       
+        </form>
+
         </div>
         <br><br>
 
@@ -141,15 +165,13 @@
             <ul>
                 <li>+254 712 345 678</li>
                 <li>chessy@gmail.com</li>
-                
             </ul>
-            
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
         </div>
+
         <h5 class="center">All rights reserved,terms and conditions applied</h5>
     </footer>
-<!-- <script src="./rough.js" async defer></script> -->
 </body>
 </html>

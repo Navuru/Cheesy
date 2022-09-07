@@ -1,6 +1,20 @@
 body{
-    width: 70%;
+    width: 100%;
     margin: auto;
+    background-image: url("../images/spices.jpg");
+}
+*{
+    font-family: 'Courgette', cursive;
+    font-size: large;
+    /* line-height:20px; */
+}
+h1,h2,h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.recipes{
+    font-size: larger;
 }
 .nav-li{
     list-style: none;
@@ -15,14 +29,13 @@ a{
 }
 
 nav {
-    background-color : #FFA101;
+    background-color : #e49a03;
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    /* padding-bottom: 30px; */
     font-weight: 900;
-    /* background-color: black; */
     color: white;
+    font-size: larger;
 }
 i{
     color: black;
@@ -33,49 +46,72 @@ i{
     padding-top: 100px;
 } 
 #intro-1 {
-    color: white;
+    border-radius: 15px;
     line-height: 40px;
     font-size: larger;
-    background-image: url("../images/food-1.jpg");
-    background-size: contain;
+    background-image: url("../images/chicken.jpg");
+    background-size:contain;
     background-repeat: no-repeat;
-    height:400px;
-    width: 600px;
+    height:600px;
+    width: 800px;
+    padding: 30px;
+    margin: 30px;
+    opacity: 0.6;
 }
 #form {
     padding-top: 100px;
 }
 #shadow{
     box-shadow:3px 3px 2px 5px rgb(197, 187, 187);
-    height: 300px;
+    height: 400px;
     width: 300px;
-    background-color: #B3DEE5;
+    background-color: #d9d6d5;
+    opacity: 0.7;
 }
-.favorites{
+#first{
+     background-color: #e9e5eed1;
+     width: 80%;
+     align-self: center;
+     background-size: 1300px; 
+     border-radius: 30px;
+     padding: 30px;
+     margin: 0 auto;
+     font-size: larger;
+}
+.recipes{
     display: flex;
-    justify-content: space-around;
-    
-}
-#first,#second,#third{
-    /* background-image: url("../images/food-4.jpg");
-    background-repeat: no-repeat;
-    background-size: 1300px; */
+    justify-content: space-between;
 }
 .center{
     text-align: center;
 }
-/* .reviews{
-    display: flex;
-    justify-content: space-around;
-} */
 .like-button {
     color: rgb(245, 42, 15);
   }
 footer{
-    background-color: #31525B;
+    background-color: rgb(20,20,20,0.5);
+    padding: 30px;
+    color:white;
 }
 body{
-    background-color:#B3DEE5;
-    background-color: #FAE6B1;
-    background-color: #8FCFC1;
+    background-color: #c08b61;
+}
+
+img{
+    width: 100px;
+    height: 120px;
+}
+.container {
+    background-color: #e9e5eed1;
+    width:auto;
+    border-radius: 30px;
+    width: 800px;
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fa-brands{
+    font-size:25px ;
+    color: white;
+    padding: 10px;
 }
